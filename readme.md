@@ -1,4 +1,4 @@
-# Pepo Campaign Library
+# PHP Pepo Campaign Library
 
 There a simple Pepo Campaign library in PHP
 
@@ -12,7 +12,7 @@ require ("pepocampaign.php");
 $pepo = new pepocampaign();
 ```
 
-### Create conact list
+### Create contact list
 ```
 require ("pepocampaign.php");
 $pepo = new pepocampaign();
@@ -20,7 +20,7 @@ $atributes = array('name' => 'The new list name', 'source' => 'Loremp ipsum');
 $pepo->create_list($atributes);
 ```
 
-### Add conact to list
+### Add contact to list
 ```
 require ("pepocampaign.php");
 $pepo = new pepocampaign();
