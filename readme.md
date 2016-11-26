@@ -4,7 +4,7 @@ There a simple Pepo Campaign library in PHP
 
 ### Prerequisites
 
-This library user cUrl
+This library use cUrl
 
 ### How to use it
 ```
@@ -24,6 +24,7 @@ $pepo->create_list($atributes);
 ```
 require ("pepocampaign.php");
 $pepo = new pepocampaign();
+$pepo->set_list(8);
 $atributes = array('email' => 'user@email.com', 'first_name' => 'Loremp', 'last_name' => 'Ipsum');
 $pepo->add_contact_to_list($atributes);
 ```
@@ -31,6 +32,7 @@ $pepo->add_contact_to_list($atributes);
 ### Remove contact from list
 ```
 require ("pepocampaign.php");
+$pepo->set_list(8);
 $pepo = new pepocampaign();
 $atributes = array('email' => 'user@email.com');
 $pepo->remove_contact_from_list($atributes);
