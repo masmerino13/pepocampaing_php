@@ -6,6 +6,18 @@ There a simple Pepo Campaign library in PHP
 
 This library use cUrl
 
+### Configuration
+Set the pepo key and api secret key in the pepocampaign class constructor
+```
+$this->pepo_key = 'change-me';
+$this->pepo_secret = 'change-me';
+```
+
+Also you can set the time zone
+```
+date_default_timezone_set('America/Los_Angeles');
+```
+
 ### How to use it
 ```
 require ("pepocampaign.php");
